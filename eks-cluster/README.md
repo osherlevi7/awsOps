@@ -24,3 +24,9 @@ $ eksctl create cluster \
     > --node-type t2.micro \
     > --nodes 2
 ```
+
+## Delete the cluster
+
+```shell
+    $ eksctl delete cluster --name test-cluster
+```
